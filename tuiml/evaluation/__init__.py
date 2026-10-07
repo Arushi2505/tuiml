@@ -153,6 +153,8 @@ from .tuning import (
     HyperbandSearchCV,
     RandomSearchCV,
     SuccessiveHalvingSearchCV,
+    HalvingGridSearchCV,
+    HalvingRandomSearchCV,
 )
 
 
@@ -221,6 +223,7 @@ __all__ = [
     "benjamini_hochberg",
     "SignificanceLevel",
     "PairedStats",
+
     # Reporting
     # Visualization
     "plot_critical_difference",
@@ -233,6 +236,7 @@ __all__ = [
     "plot_confusion_matrix",
     "compute_ranks",
     "critical_difference",
+
     # Tuning
     "BaseTuner",
     "TuningResult",
@@ -243,4 +247,6 @@ __all__ = [
     "BayesianSearchCV",
     "SuccessiveHalvingSearchCV",
     "HyperbandSearchCV",
+    "HalvingGridSearchCV",
+    "HalvingRandomSearchCV",
 ]
