@@ -59,7 +59,7 @@ class HalvingRandomSearchCV(SuccessiveHalvingSearchCV):
     ...     cv=3,
     ...     random_seed=0,
     ... )
-    >>> search.fit(data.X, data.y)
+    >>> _ = search.fit(data.X, data.y)
     >>> type(search).__name__
     'HalvingRandomSearchCV'
     >>> search.n_candidates_per_round_

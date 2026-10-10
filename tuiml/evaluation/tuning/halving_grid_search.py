@@ -51,7 +51,7 @@ class HalvingGridSearchCV(SuccessiveHalvingSearchCV):
     ...     cv=3,
     ...     random_seed=0,
     ... )
-    >>> search.fit(data.X, data.y)
+    >>> _ = search.fit(data.X, data.y)
     >>> type(search).__name__
     'HalvingGridSearchCV'
     >>> len(search.cv_results_["params"]) > 0

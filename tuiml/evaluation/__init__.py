@@ -223,7 +223,6 @@ __all__ = [
     "benjamini_hochberg",
     "SignificanceLevel",
     "PairedStats",
-
     # Reporting
     # Visualization
     "plot_critical_difference",
@@ -236,7 +235,6 @@ __all__ = [
     "plot_confusion_matrix",
     "compute_ranks",
     "critical_difference",
-
     # Tuning
     "BaseTuner",
     "TuningResult",
